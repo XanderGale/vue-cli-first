@@ -11,5 +11,9 @@
 <style scoped>
     .title{
         color: darkslategray;
+
+        font-size: 50px;
+
+        margin: 30px auto;
     }
 </style>

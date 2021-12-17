@@ -1,22 +1,30 @@
 <template>
   <div id="app">
     <Title/>
-    <img alt="Vue logo" src="./assets/img/logo.png" />
+    <Jumbo/>
   </div>
 </template>
 
 <script>
 import Title from "./components/Title.vue";
+import Jumbo from "./components/Jumbo.vue"
 
 export default {
   name: "App",
   components: {
     Title,
+    Jumbo,
   },
 };
 </script>
 
 <style lang="scss">
+// Reset
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
